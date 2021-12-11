@@ -8,3 +8,8 @@
     color:red;
     font-size: 5rem;
 };
+
+#content {
+    width: 100%;
+    height: 100%;
+}
