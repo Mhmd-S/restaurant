@@ -27,4 +27,4 @@ function showHeader(){
     nav.appendChild(liC);
 }
 
-document.addEventListener('DOMContentLoaded', showTab1());
+// document.addEventListener('DOMContentLoaded', showTab1());
