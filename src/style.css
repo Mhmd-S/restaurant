@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;700;800;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Montserrat:wght@100;200;300;400;500;700;800;900&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -22,6 +21,9 @@
     height: 15%;
     display: flex;
     justify-content: center;
+    background-color: #2b3a42;
+    position: sticky;
+    top:0;
 }
 
 .navItem {
@@ -29,13 +31,14 @@
     cursor: pointer;
     font-size: 1.7rem;
     list-style: none;
+    color: whitesmoke;
 }
 
 .navItem::after {
     content: '';
     width: 0%;
     height: 2px;
-    background: red;
+    background: whitesmoke;
     display:block;
     position: relative;
     top:0;
@@ -45,4 +48,29 @@
 
 .navItem:hover::after {
     width: 100%;
+}
+
+#mainIntro {
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    background-color: black;
+    color: whitesmoke;
+    font-size: 3rem;
+    padding: 1rem;
+    text-align: center;
+    font-family: 'Lora';
+    border-bottom: 3px solid #fec56f;
+}
+
+#mContent {
+    margin: 3rem 0;
+    width: 100%;
+    padding: 0 7.5rem;
+}
+
+#mainPic{
+    width: 100%;
+    height: 25%;
+;
 }
