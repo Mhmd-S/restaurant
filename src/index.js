@@ -13,9 +13,9 @@ function showHeader(){
     
     navIt.setAttribute('id','navi');
 
-    liA.setAttribute('class','navItem');
-    liB.setAttribute('class','navItem');
-    liC.setAttribute('class','navItem');
+    liA.classList.add('navItem')
+    liB.classList.add('navItem')
+    liC.classList.add('navItem')
 
     liA.innerHTML = "Home";
     liB.innerHTML = "Menu";
