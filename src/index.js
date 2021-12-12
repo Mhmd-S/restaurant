@@ -5,13 +5,18 @@ import './tab3.js';
 
 function showHeader(){
     const content = document.getElementById('content');
-    const nav = document.createElement('div');
     const navIt = document.createElement('ul');
     
     const liA = document.createElement('li');
     const liB = document.createElement('li');
     const liC = document.createElement('li');
     
+    navIt.setAttribute('id','navi');
+
+    liA.setAttribute('class','navItem');
+    liB.setAttribute('class','navItem');
+    liC.setAttribute('class','navItem');
+
     liA.innerHTML = "Home";
     liB.innerHTML = "Menu";
     liC.innerHTML = "Contact";
@@ -20,11 +25,13 @@ function showHeader(){
     // liB.addEventListener('click', tab2.js());
     // liC.addEventListener('click', tab3.js());
 
-    content.appendChild(nav);
+    content.appendChild(navIt);
 
-    nav.appendChild(liA);
-    nav.appendChild(liB);
-    nav.appendChild(liC);
+    navIt.appendChild(liA);
+    navIt.appendChild(liB);
+    navIt.appendChild(liC);
 }
 
+
+showHeader();
 // document.addEventListener('DOMContentLoaded', showTab1());

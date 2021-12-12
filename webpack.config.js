@@ -5,6 +5,8 @@ module.exports = {
             tab1 :'./src/tab1.js',
             tab2 :'./src/tab2.js',
             tab3 :'./src/tab3.js'},
+    
+    devtool: 'inline-source-map',
     output: {
         filename: '[name].bundle.js',
         path: path.resolve(__dirname, 'dist'),
