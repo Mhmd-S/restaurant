@@ -72,5 +72,19 @@
 #mainPic{
     width: 100%;
     height: 25%;
-;
+}
+
+.sepeCon {
+    width: 100%;
+    color: #fec56f;
+    font-size: 7.5rem;
+    text-align: center;
+}
+
+.descCon {
+    margin-top: 3rem;
+    width: 100%;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 3rem;
 }
