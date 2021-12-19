@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Teko:wght@300;400;500;600;700&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 #mainContainer {
     width: 100%;
     height: 100%;
@@ -13,7 +7,7 @@
     padding-bottom: 1rem;
 }
 
-#content {
+#contentA {
     position: relative;
     transform: translate(-50%, 0%);
     top:10%;
@@ -28,7 +22,7 @@
     background-color: #FDF4DC;
 }
 
-#content::before {
+#contentA::before {
   content: '';
   position: absolute;
   z-index: -1;
@@ -37,41 +31,6 @@
   right: 5px;
   bottom: 5px;
   border: 3px solid black;
-}
-
-#navi {
-    width:100%;
-    height: 15%;
-    display: flex;
-    justify-content: center;
-    background-color: #2b3a42;
-    position: sticky;
-    top:0;
-    z-index: 10000;
-}
-
-.navItem {
-    margin: 1rem 2rem;
-    cursor: pointer;
-    font-size: 1.7rem;
-    list-style: none;
-    color: whitesmoke;
-}
-
-.navItem::after {
-    content: '';
-    width: 0%;
-    height: 2px;
-    background: whitesmoke;
-    display:block;
-    position: relative;
-    top:0;
-    margin:0 auto;
-    transition:0.3s;
-}
-
-.navItem:hover::after {
-    width: 100%;
 }
 
 #titleM {
